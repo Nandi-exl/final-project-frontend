@@ -1,0 +1,18 @@
+.abstract-bg {
+    background-image: url(./abstract-bg.jpg);
+    background-size:100%;
+    color: white;
+}
+
+.margin {
+    margin: 30px;
+}
+.form-box {
+    border: 3px solid grey;    
+    border-radius: 10px;
+    text-align: left;
+}
+
+.form-margin {
+    margin: 20px;
+}

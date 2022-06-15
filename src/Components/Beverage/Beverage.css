@@ -1,0 +1,9 @@
+.abstract-bg {
+    background-image: url(./abstract-bg.jpg);
+    background-size:100%;
+    color: white;
+}
+
+.card {
+    color: black;
+}
