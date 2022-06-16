@@ -1,6 +1,20 @@
+<<<<<<< HEAD
+import React from "react";
+import "./App.css";
+import Header from "./Components/Header/Header";
+import Home from "./Components/Home/Home";
+// import About from "./Components/About";
+import Food from "./Components/Food/Food";
+import Beverage from "./Components/Beverage/Beverage";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+=======
 import './App.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+>>>>>>> main
 
 function App() {
   const [images, setImages] = useState([]);
@@ -19,6 +33,19 @@ function App() {
   }, []);
 
   return (
+<<<<<<< HEAD
+    <div className="App">
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/food" element={<Food/>}/>
+          <Route path="/beverage" element={<Beverage/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+=======
     <div className='App'>
       <h1>{foods.foodName}</h1>
       <p>{foods.description}</p>
@@ -36,6 +63,7 @@ function App() {
           </>
         );
       })}
+>>>>>>> main
     </div>
   );
 }
