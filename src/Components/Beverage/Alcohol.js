@@ -4,7 +4,7 @@ import axios from "axios";
 import ModalBeverage from "./ModalBeverage";
 import "./Beverage.css"
 
-function Beverage() {
+function Alcohol() {
   const [images, setImages] = useState([]);
   const [beverages, setBeverage] = useState([]);
   const [category, setCategory] = useState("");
@@ -26,7 +26,7 @@ function Beverage() {
   return (
     <div id="beverage" className="abstract-bg">
       <br/>
-      <h3>Beverages</h3>
+      <h3>Alcohol Drinks</h3>
       <br/>
       <Container>
         <Row xs={2} md={5} className="g-4">
@@ -59,4 +59,4 @@ function Beverage() {
   );
 }
 
-export default Beverage;
+export default Alcohol;

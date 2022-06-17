@@ -43,12 +43,12 @@ function Home() {
           direction="horizontal"
           gap={3}
         >
-          <Button variant="danger" href="/food">
-            Food
+          <Button variant="danger" href="/foods">
+            Foods
           </Button>
           <div className="vr" />
-          <Button variant="primary" href="/beverage">
-            Beverage
+          <Button variant="primary" href="/beverages">
+            Beverages
           </Button>
         </Stack>
       </div>
