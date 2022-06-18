@@ -5,5 +5,15 @@
 }
 
 .card {
+    height: 319px;
+}
+
+.card-img {
+    /* height: 215px; */
+    border-bottom: 5px red;
+
+}
+
+.card-font {
     color: black;
 }

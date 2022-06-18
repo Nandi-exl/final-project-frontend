@@ -27,7 +27,7 @@ function ModalBeverage(props) {
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">Recipe</Modal.Title>
+        <Modal.Title id="contained-modal-title-vcenter">Details</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Row>
