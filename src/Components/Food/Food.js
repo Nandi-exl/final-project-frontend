@@ -25,25 +25,25 @@ function Food() {
 
   return (
     <div id="food" className="abstract-bg">
-      <br></br>
-      <h3>Check Out Some Foods</h3>
-      <br></br>
+      <br/>
+      <h3>Foods</h3>
+      <br/>
       <Container>
         <Row xs={2} md={5} className="g-4">
-          {Array.from({ length: 10 }).map((_, idx) => (
+          {Array.from({ length: 5 }).map((_, idx) => (
             <Col>
               <Card>
                 {images.map((img) => {
                   const { id, image } = img;
-                  return <Card.Img variant="top" key={id} src={image} />;
+                  return <Card.Img className="card-img" variant="top" key={id} src={image} />;
                 })}
-                <Card.Body className="card">
+                <Card.Body className="card-font">
                   <Card.Title>{foods.foodName}</Card.Title>
-                  <Card.Text>{foods.description}</Card.Text>
+                  {/* <Card.Text>{foods.description}</Card.Text> */}
                 </Card.Body>
                 {/* <Button variant="warning">See Recipe</Button> */}
                 <Button variant="warning" onClick={() => setModalShow(true)}>
-                  See Recipe
+                  Details
                 </Button>
                 <ModalFood
                   show={modalShow}
@@ -54,7 +54,7 @@ function Food() {
           ))}
         </Row>
       </Container>
-      <br></br>
+      <br/><br/><br/><br/><br/>
     </div>
   );
 }

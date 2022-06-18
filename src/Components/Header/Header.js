@@ -20,18 +20,18 @@ function Header() {
           <Nav.Link href="/">Home</Nav.Link>
           {/* <Nav.Link href="#about">About</Nav.Link> */}
           <NavDropdown title="Dishes" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/food">Food</NavDropdown.Item>
+            <NavDropdown.Item href="/foods">Foods</NavDropdown.Item>
             {/* <NavDropdown.Item eventKey="disabled" disabled>Food</NavDropdown.Item> */}
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/food/breakfast">Breakfast</NavDropdown.Item>
-            <NavDropdown.Item href="/food/lunch">Lunch</NavDropdown.Item>
-            <NavDropdown.Item href="/food/dinner">Dinner</NavDropdown.Item>
+            <NavDropdown.Item href="/foods/breakfast">Breakfast</NavDropdown.Item>
+            <NavDropdown.Item href="/foods/lunch">Lunch</NavDropdown.Item>
+            <NavDropdown.Item href="/foods/dinner">Dinner</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/beverage">Beverage</NavDropdown.Item>
+            <NavDropdown.Item href="/beverages">Beverages</NavDropdown.Item>
             {/* <NavDropdown.Item eventKey="disabled" disabled>Beverage</NavDropdown.Item> */}
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/beverage/alcohol">Alcohol</NavDropdown.Item>
-            <NavDropdown.Item href="/beverage/non-alkohol">Non-alcohol</NavDropdown.Item>
+            <NavDropdown.Item href="/beverages/alcohol">Alcohol</NavDropdown.Item>
+            <NavDropdown.Item href="/beverages/non-alcohol">Non-alcohol</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
